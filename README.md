@@ -34,7 +34,8 @@ After building the garage system, this section implements a simple HTTP-based AP
 ### installation and operating instructions for the project
 
 ### - To Add a new vehicle to the vehicle's collection:
-Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
+ insert the details of the car:type, modelName, licenseNumber, maxTirePressure, isElectric
+ 
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
  ### for example:
 ![image](https://user-images.githubusercontent.com/57721728/166470984-5d4da3ff-29a9-44b7-b84b-34805cc52931.png)
