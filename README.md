@@ -1,7 +1,7 @@
 # Moveo_GarageCar_Api
 
 ## Moveo project
-
+### Author :Inbal cohen 
 <img src="https://clictellassets.s3.amazonaws.com/prod/users/cleaning_service.jpg" width="400" height="320">
 
 ### About the project-
