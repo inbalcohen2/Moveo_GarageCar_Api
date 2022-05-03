@@ -51,13 +51,11 @@ http://localhost:8080/getAll
 http://localhost:8080/getVehicle?licenseNumber=1234
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471360-0fe33e32-4108-4549-af3b-92a48bc77821.png)
-
 ### -To fill the tire in the air according to the license number:
  Need to insert licenseNumber
 http://localhost:8080/inflate?licenseNumber=1234
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471601-d1d41785-5577-4f43-ba7c-b9e260ac2afb.png)
- 
 ### - To Refuel a vehicle by license number:
 Need to insert licenseNumber
 http://localhost:8080/addenergy?licenseNumber=1234
