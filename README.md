@@ -36,8 +36,10 @@ For installing the garage system please follow the instructions below:
 - Add a new vehicle to the vehicle's collection:
 Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
- - for example:
- ![](https://web.whatsapp.com/2be645e0-b1cc-4de3-9cab-1c01f5c39a46)
+ ### for example:
+// ![](https://web.whatsapp.com/2be645e0-b1cc-4de3-9cab-1c01f5c39a46)
+ ![WhatsApp Image 2022-05-03 at 00 38 32 (1)](https://user-images.githubusercontent.com/57721728/166470728-2b6fd302-53fb-4b92-8090-3400b74ce7f3.jpeg)
+
 - Returns all cars:
 http://localhost:8080/getAll
 
