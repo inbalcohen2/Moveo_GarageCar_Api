@@ -1,6 +1,8 @@
 # Moveo_GarageCar_Api
 ## Moveo project
-![image](https://clictellassets.s3.amazonaws.com/prod/users/cleaning_service.jpg)
+
+<img src="https://clictellassets.s3.amazonaws.com/prod/users/cleaning_service.jpg" width="400" height="320">
+
 ### About the project-
 The project includes 2 parts when they simulate a garage management system.
 The first part of the project:
