@@ -33,7 +33,7 @@ For installing the garage system please follow the instructions below:
 ## REST API procedures 
 ### installation and operating instructions for the project
 
-- Add a new vehicle to the vehicle's collection:
+## - Add a new vehicle to the vehicle's collection:
 Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
  ### for example:
