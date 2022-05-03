@@ -37,19 +37,31 @@ For installing the garage system please follow the instructions below:
 Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
  ### for example:
-// ![](https://web.whatsapp.com/2be645e0-b1cc-4de3-9cab-1c01f5c39a46)
- ![WhatsApp Image 2022-05-03 at 00 38 32 (1)](https://user-images.githubusercontent.com/57721728/166470728-2b6fd302-53fb-4b92-8090-3400b74ce7f3.jpeg)
+![image](https://user-images.githubusercontent.com/57721728/166470984-5d4da3ff-29a9-44b7-b84b-34805cc52931.png)
 
 - Returns all cars:
 http://localhost:8080/getAll
 
+ ### for example:
+ ![image](https://user-images.githubusercontent.com/57721728/166471704-1b57d289-4374-4c5e-86c9-997ca1a9d5b9.png)
+
 - Returns a specific car Returns a specific car by driver's license number:
 http://localhost:8080/getVehicle?licenseNumber=1234
+
+ ### for example:
+ ![image](https://user-images.githubusercontent.com/57721728/166471360-0fe33e32-4108-4549-af3b-92a48bc77821.png)
 
 - Fills the tire with air according to the license number:
  Need to insert licenseNumber
 http://localhost:8080/inflate?licenseNumber=1234
 
+ ### for example:
+ ![image](https://user-images.githubusercontent.com/57721728/166471601-d1d41785-5577-4f43-ba7c-b9e260ac2afb.png)
+ 
 - Refueling by license number:
 Need to insert licenseNumber
 http://localhost:8080/addenergy?licenseNumber=1234
+
+ ### for example:
+ ![image](https://user-images.githubusercontent.com/57721728/166471803-d8201115-f8c3-422c-892d-b820c5402d97.png)
+
