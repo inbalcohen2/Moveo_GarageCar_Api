@@ -33,32 +33,32 @@ For installing the garage system please follow the instructions below:
 ## REST API procedures 
 ### installation and operating instructions for the project
 
-## - Add a new vehicle to the vehicle's collection:
+### - Add a new vehicle to the vehicle's collection:
 Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
  ### for example:
 ![image](https://user-images.githubusercontent.com/57721728/166470984-5d4da3ff-29a9-44b7-b84b-34805cc52931.png)
 
-- Returns all cars:
+### - Returns all cars:
 http://localhost:8080/getAll
 
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471704-1b57d289-4374-4c5e-86c9-997ca1a9d5b9.png)
 
-- Returns a specific car Returns a specific car by driver's license number:
+### - Returns a specific car Returns a specific car by driver's license number:
 http://localhost:8080/getVehicle?licenseNumber=1234
 
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471360-0fe33e32-4108-4549-af3b-92a48bc77821.png)
 
-- Fills the tire with air according to the license number:
+### - Fills the tire with air according to the license number:
  Need to insert licenseNumber
 http://localhost:8080/inflate?licenseNumber=1234
 
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471601-d1d41785-5577-4f43-ba7c-b9e260ac2afb.png)
  
-- Refueling by license number:
+### - Refueling by license number:
 Need to insert licenseNumber
 http://localhost:8080/addenergy?licenseNumber=1234
 
