@@ -60,5 +60,4 @@ http://localhost:8080/inflate?licenseNumber=1234
 Need to insert licenseNumber
 http://localhost:8080/addenergy?licenseNumber=1234
  ### for example:
- ![image](https://user-images.githubusercontent.com/57721728/166471803-d8201115-f8c3-422c-892d-b820c5402d97.png)
-
+<img src="https://user-images.githubusercontent.com/57721728/166471803-d8201115-f8c3-422c-892d-b820c5402d97.png" width="100" height="200">
