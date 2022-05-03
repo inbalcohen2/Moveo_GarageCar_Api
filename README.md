@@ -23,7 +23,7 @@ Model name, license number, percentage of energy available (how much battery or 
 ## Part Two:
 After building the garage system, this section implements a simple HTTP-based API that reveals the following endpoints:
 
-For installing the garage system please follow the instructions below:
+### For installing the garage system please follow the instructions below:
 
 - Clone this repository.
 - open this project in your IDE
@@ -33,35 +33,31 @@ For installing the garage system please follow the instructions below:
 ## REST API procedures 
 ### installation and operating instructions for the project
 
-### - Add a new vehicle to the vehicle's collection:
+### - To Add a new vehicle to the vehicle's collection:
 Need to insert:type, modelName, licenseNumber, maxTirePressure, isElectric
 http://localhost:8080/add?type=car&modelName=tesla&licenseNumber=1234&maxTirePressure=20&isElectric=true
  ### for example:
 ![image](https://user-images.githubusercontent.com/57721728/166470984-5d4da3ff-29a9-44b7-b84b-34805cc52931.png)
 
-### - Returns all cars:
+### - To get all cars:
 http://localhost:8080/getAll
-
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471704-1b57d289-4374-4c5e-86c9-997ca1a9d5b9.png)
 
-### - Returns a specific car Returns a specific car by driver's license number:
+### - To get a specific car according to the license number:
 http://localhost:8080/getVehicle?licenseNumber=1234
-
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471360-0fe33e32-4108-4549-af3b-92a48bc77821.png)
 
-### - Fills the tire with air according to the license number:
+### -To fill the tire in the air according to the license number:
  Need to insert licenseNumber
 http://localhost:8080/inflate?licenseNumber=1234
-
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471601-d1d41785-5577-4f43-ba7c-b9e260ac2afb.png)
  
-### - Refueling by license number:
+### - To Refuel a vehicle by license number:
 Need to insert licenseNumber
 http://localhost:8080/addenergy?licenseNumber=1234
-
  ### for example:
  ![image](https://user-images.githubusercontent.com/57721728/166471803-d8201115-f8c3-422c-892d-b820c5402d97.png)
 
